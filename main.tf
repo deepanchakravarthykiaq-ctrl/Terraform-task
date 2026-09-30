@@ -119,7 +119,7 @@ resource "aws_instance" "web" {
 
 # Task 7 - S3
 resource "aws_s3_bucket" "website" {
-  bucket = "my-terraform-lab-bucket-123456789"
+  bucket = "my-terraform-bucket-260996"
 
   tags = {
     Name = "terraform-s3"
